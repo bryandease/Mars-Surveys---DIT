@@ -1,0 +1,97 @@
+$base-color: #002D4E;
+$active-color: #249ECD;
+
+@import 'sencha-touch/default/all';
+
+// You may remove any of the following modules that you
+// do not use in order to create a smaller css file.
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-button-ui('orange', #ff8000, 'glossy');
+@include sencha-sheet;
+@include sencha-layout;
+@include sencha-form;
+@include sencha-msgbox;
+@include sencha-loading-spinner;
+
+.x-form .x-scroll-container, .x-layout-card-item  {
+	background-color: transparent;
+}
+
+.x-msgbox-title {
+	color: #FFFFFF;
+}
+
+.survey_logo {
+	float: left;
+	display: block;
+	margin-right: 20px;
+}
+
+.intro_text {
+	font-size: 140%;
+	width: 930px;
+	position: relative;
+	top: 40px;
+}
+
+h1 {
+	font-size: 180%;
+	top: 40px;
+	position: relative;
+}
+
+.inline {
+	float: left;
+}
+
+.buttonhold {
+	width: 320px;
+	margin: 100px auto 0 auto;
+}
+
+.buttonhold_three {
+	width: 490px;
+	margin: 160px auto 0 auto;
+}
+
+.question_text {
+	font-size: 150%;
+	width: 930px;
+	position: relative;
+	top: 50px;
+}
+
+.question_multi_text {
+	padding-top: 55px;
+	font-size: 120%;
+	padding-bottom: 25px;
+}
+
+.multi_wrap {
+	margin-left: 242px;
+}
+
+.question_list {
+	font-size: 115%;
+	margin-bottom: 8px;
+}
+
+body {
+	background: url(touch/resources/images/cloud.jpg) no-repeat;
+}
+
+#loginform {
+	text-align:center;
+	width: 300px;
+	margin: 0 auto;
+	padding-right: 30px;
+
+	.x-html {
+		padding: 0;
+	}
+}
+
+#completer {
+	margin: 40px auto;
+}
